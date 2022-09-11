@@ -1,5 +1,5 @@
 # Captcha Only With JS
-<img src="Sceen.JPG"><br>
+<img src="/Screen.JPG"><br>
 This is a small project which generates random Captcha code.
 ## How it works
 You need to validate the code which is case sensitive.
