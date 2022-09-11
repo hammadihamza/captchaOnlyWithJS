@@ -1,0 +1,50 @@
+body {
+  background-color: whitesmoke;
+}
+form {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+}
+input[type="text"] {
+  padding: 12px 20px;
+  font-size: 30px;
+  color: rgb(29, 29, 29);
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+button {
+  background-color: #3a7ed8;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.7;
+}
+#captcha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+canvas {
+  pointer-events: none;
+}
+#attention {
+  font-size: 18px;
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
